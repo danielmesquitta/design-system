@@ -15,5 +15,11 @@ module.exports = {
   },
   "features": {
     "storyStoreV7": true
+  },
+  "viteFinal": async (config, {configType}) => {
+    if(configType === 'PRODUCTION') {
+      // Github repository name
+      config.base = '/design-system/'
+    }
   }
 }
