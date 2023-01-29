@@ -5,6 +5,8 @@ on:
     branches:
       - master
 
+permissions: read-all|write-all
+
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
@@ -25,5 +27,5 @@ jobs:
         working-directory: ./packages/docs
         run: npm run deploy -- --ci --existing-output-dir=storybook-static
         env: 
-          GH_TOKEN: ${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           
