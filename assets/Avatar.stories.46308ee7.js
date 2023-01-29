@@ -1,0 +1,2 @@
+import{A as t}from"./index.a7891038.js";import"./index.70152b5c.js";import"./iframe.3f06dfdb.js";import"./index.6cb64369.js";import"./jsx-runtime.ad20f672.js";const e={title:"Data display/Avatar",component:t,args:{src:"https://github.com/danielmesquitta.png",alt:"Daniel Mesquita"}},l={},p={args:{src:void 0}},c=["Default","WithFallback"];export{l as Default,p as WithFallback,c as __namedExportsOrder,e as default};
+//# sourceMappingURL=Avatar.stories.46308ee7.js.map
